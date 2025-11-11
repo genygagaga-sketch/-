@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузинский ресторанчик "Хочу Пури" - Бронирование мероприятий</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">Хочу Пури</div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
+<nav>
+    <ul id="main-nav">
+        <li><a href="#" class="nav-link" data-page="home">Главная</a></li>
+        <li><a href="#" class="nav-link" data-page="about">О ресторане</a></li>
+        <li><a href="#" class="nav-link" data-page="events">Мероприятия</a></li>
+        <li><a href="#" class="nav-link" data-page="booking">Бронирование</a></li>
+        <li><a href="#" class="nav-link" data-page="menu">Меню</a></li>
+        <li><a href="#" class="nav-link" data-page="gallery">Галерея</a></li>
+    </ul>
+</nav>
+        </div>
+    </header>
+
+    <!-- Главная страница -->
+    <section id="home" class="page active">
+        <div class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/7289c1c8b68c8ab8c88c392839c60e4e_1920.jpeg') no-repeat center center/cover;">
+            <div class="hero-content">
+                <h1>Организуйте незабываемое мероприятие</h1>
+                <p>Грузинский ресторанчик "Хочу Пури" предлагает уникальные возможности для проведения праздников любого масштаба</p>
+                <a href="#" class="btn nav-link" data-page="booking">Забронировать сейчас</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <section>
+                <h2 class="section-title">Популярные мероприятия</h2>
+                <div class="events-grid">
+    <div class="event-card">
+        <div class="event-image">
+            <img src="images/i.webp" alt="Свадьба">
+        </div>
+        <div class="event-info">
+            <h3>Свадьба</h3>
+            <p>Организуем незабываемую свадебную церемонию и банкет</p>
+            <a href="#" class="btn nav-link" data-page="booking" data-event-type="wedding">Забронировать</a>
+        </div>
+    </div>
+    <div class="event-card">
+        <div class="event-image">
+            <img src="images/др.webp" alt="День рождения">
+        </div>
+        <div class="event-info">
+            <h3>День рождения</h3>
+            <p>Создадим праздничную атмосферу для вашего дня рождения</p>
+            <a href="#" class="btn nav-link" data-page="booking" data-event-type="birthday">Забронировать</a>
+        </div>
+    </div>
+    <div class="event-card">
+        <div class="event-image">
+            <img src="images/корпоратив.webp" alt="Корпоратив">
+        </div>
+        <div class="event-info">
+            <h3>Корпоратив</h3>
+            <p>Проведем успешное корпоративное мероприятие для вашей компании</p>
+            <a href="#" class="btn nav-link" data-page="booking" data-event-type="corporate">Забронировать</a>
+        </div>
+    </div>
+</div>
+            </section>
+        </div>
+    </section>
+
+    <!-- О ресторане -->
+    <section id="about" class="page">
+        <div class="container">
+            <h2 class="section-title">О нашем ресторане</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/зал ресторана.webp" alt="Интерьер ресторана">
+                </div>
+                <div class="about-text">
+                    <h3>Гастрономия - место для особых моментов</h3>
+                    <p>Наш ресторан предлагает уникальное сочетание изысканной кухни, элегантного интерьера и безупречного сервиса. Мы специализируемся на организации мероприятий любого масштаба - от романтических ужинов до масштабных корпоративных праздников.</p>
+                    <p>Наша команда профессиональных поваров создает блюда, которые удовлетворят даже самых взыскательных гурманов. Мы используем только свежие, качественные продукты и следуем традициям мировой кухни, добавляя современные нотки.</p>
+                    <p>Пространство ресторана легко трансформируется под ваши потребности. Мы предлагаем различные тематические оформления, профессиональное музыкальное сопровождение и все необходимое для создания незабываемой атмосферы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Мероприятия -->
+    <section id="events" class="page">
+        <div class="container">
+            <h2 class="section-title">Наши мероприятия</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/i.webp" alt="Свадьба">
+                    </div>
+                    <div class="event-info">
+                        <h3>Свадьба</h3>
+                        <p>Организуем незабываемую свадебную церемонию и банкет. Предлагаем различные пакеты услуг, индивидуальное меню и помощь в планировании.</p>
+                        <ul>
+                            <li>До 100 гостей</li>
+                            <li>Индивидуальное меню</li>
+                            <li>Профессиональная фотосессия</li>
+                            <li>Музыкальное сопровождение</li>
+                        </ul>
+                        <a href="#" class="btn nav-link" data-page="booking">Забронировать</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/др.webp" alt="День рождения">
+                    </div>
+                    <div class="event-info">
+                        <h3>День рождения</h3>
+                        <p>Создадим праздничную атмосферу для вашего дня рождения. Подберем тематическое оформление и меню согласно вашим предпочтениям.</p>
+                        <ul>
+                            <li>Различные тематики</li>
+                            <li>Специальное меню</li>
+                            <li>Праздничный торт</li>
+                            <li>Развлекательная программа</li>
+                        </ul>
+                        <a href="#" class="btn nav-link" data-page="booking">Забронировать</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/корпоратив.webp" alt="Корпоратив">
+                    </div>
+                    <div class="event-info">
+                        <h3>Корпоратив</h3>
+                        <p>Проведем успешное корпоративное мероприятие для вашей компании. Предлагаем различные форматы: от делового ужина до праздничной вечеринки.</p>
+                        <ul>
+                            <li>Гибкие форматы</li>
+                            <li>Бизнес-ланчи</li>
+                            <li>Командные активности</li>
+                            <li>Профессиональное оборудование</li>
+                        </ul>
+                        <a href="#" class="btn nav-link" data-page="booking">Забронировать</a>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/конференция.webp" alt="Конференция">
+                    </div>
+                    <div class="event-info">
+                        <h3>Конференции и семинары</h3>
+                        <p>Организуем деловые мероприятия любого масштаба. Предоставляем современное оборудование и комфортные условия для работы.</p>
+                        <ul>
+                            <li>Проекционное оборудование</li>
+                            <li>Wi-Fi</li>
+                            <li>Фуршетные зоны</li>
+                            <li>Отдельные переговорные</li>
+                        </ul>
+                        <a href="#" class="btn nav-link" data-page="booking">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Бронирование -->
+    <section id="booking" class="page">
+        <div class="container">
+            <h2 class="section-title">Бронирование мероприятия</h2>
+            <div class="booking-form">
+                <form id="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="event-type">Тип мероприятия</label>
+                            <select id="event-type" class="form-control" required>
+                                <option value="">Выберите тип мероприятия</option>
+                                <option value="wedding">Свадьба</option>
+                                <option value="birthday">День рождения</option>
+                                <option value="corporate">Корпоратив</option>
+                                <option value="conference">Конференция</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="event-theme">Тематика мероприятия</label>
+                            <select id="event-theme" class="form-control" required>
+                                <option value="">Выберите тематику</option>
+                                <option value="classic">Дружеская встреча</option>
+                                <option value="modern">Праздник</option>
+                                <option value="vintage">Отдых</option>
+                                <option value="rustic">Деловая встреча</option>
+                                <option value="custom">Индивидуальная</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="event-date">Дата мероприятия</label>
+                            <input type="date" id="event-date" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                             <label for="event-time">Время мероприятия</label>
+        <input type="time" id="event-time" class="form-control" required>
+        <input type="date" id="event-date" class="form-control" required>
+<input type="time" id="event-time" class="form-control" required step="3600">
+        <small style="color: #666; font-size: 0.9rem; margin-top: 0.3rem; display: block;">
+            Ресторан работает: вс-чт с 11:00 до 23:00, пт-сб с 11:00 до 00:00
+        </small>
+        <div id="time-error" style="color: #dc3545; font-size: 0.9rem; margin-top: 0.3rem; display: none;"></div>
+    </div>
+</div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests-count">Количество гостей</label>
+                            <input type="number" id="guests-count" class="form-control" min="1" max="200" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Бюджет (руб.)</label>
+                            <input type="number" id="budget" class="form-control" min="1000" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="special-requests">Особые пожелания</label>
+                        <textarea id="special-requests" class="form-control" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <h3>Контактная информация</h3>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">ФИО</label>
+                            <input type="text" id="full-name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Компания (для корпоративных мероприятий)</label>
+                            <input type="text" id="company" class="form-control">
+                        </div>
+                    </div>
+                    <div class="booking-actions">
+    <button type="button" id="menuRedirectBtn" class="btn-menu-redirect">
+        🍽️ Выбрать блюда из меню
+    </button>
+</div>
+                    <div class="form-group">
+                        <button type="submit" class="btn" style="width: 100%;">Отправить заявку на бронирование</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Меню -->
+<section id="menu" class="page">
+    <div class="container">
+        <h2 class="section-title">Наше меню</h2>
+        
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">Все блюда</button>
+            <button class="category-btn" data-category="appetizers">Закуски</button>
+            <button class="category-btn" data-category="salads">Салаты</button>
+            <button class="category-btn" data-category="main">Основные блюда</button>
+            <button class="category-btn" data-category="khinkali">Хинкали</button>
+            <button class="category-btn" data-category="khachapuri">Хачапури</button>
+            <button class="category-btn" data-category="desserts">Десерты</button>
+            <button class="category-btn" data-category="drinks">Напитки</button>
+        </div>
+        
+        <div class="menu-items">
+            <!-- ХАЧАПУРИ -->
+            <div class="menu-item" data-category="khachapuri">
+                <div class="menu-item-image">
+                    <img src="images/хач адж.webp" alt="Хачапури по-аджарски">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Хачапури по-Аджарски</h3>
+                        <span class="menu-item-price">520 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Лодочка с сыром из дровяной печи с желтком и сливочным маслом, 350г</p>
+                    <button class="add-to-order" data-name="Хачапури по-Аджарски" data-price="520">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="khachapuri">
+                <div class="menu-item-image">
+                    <img src="images/хач мегр.webp" alt="Хачапури по-мегрельски">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Хачапури по-Мегрельски</h3>
+                        <span class="menu-item-price">555 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Очень вкусная сырная лепешка из горной Грузии, 330г</p>
+                    <button class="add-to-order" data-name="Хачапури по-Мегрельски" data-price="555">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- ХИНКАЛИ -->
+            <div class="menu-item" data-category="khinkali">
+                <div class="menu-item-image">
+                    <img src="images/хинк.webp" alt="Хинкали с бараниной">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Хинкали с бараниной и зирой</h3>
+                        <span class="menu-item-price">165 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Сочные хинкали с ароматной бараниной</p>
+                    <button class="add-to-order" data-name="Хинкали с бараниной и зирой" data-price="165">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="khinkali">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?dumplings" alt="Хинкали с говядиной">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Хинкали с говядиной и зеленью</h3>
+                        <span class="menu-item-price">120 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Классические хинкали с нежной говядиной</p>
+                    <button class="add-to-order" data-name="Хинкали с говядиной и зеленью" data-price="120">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- ЗАКУСКИ -->
+            <div class="menu-item" data-category="appetizers">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?appetizer" alt="Ассорти грузинских сыров">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Ассорти грузинских сыров</h3>
+                        <span class="menu-item-price">795 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Рекомендуем к вину, 180/60г</p>
+                    <button class="add-to-order" data-name="Ассорти грузинских сыров" data-price="795">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="appetizers">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?eggplant" alt="Пхали">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Пхали из цукини и моркови</h3>
+                        <span class="menu-item-price">305 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Традиционная грузинская закуска, 120г</p>
+                    <button class="add-to-order" data-name="Пхали из цукини и моркови" data-price="305">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- САЛАТЫ -->
+            <div class="menu-item" data-category="salads">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?salad" alt="Салат с телятиной">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Салат с телятиной и ореховой заправкой</h3>
+                        <span class="menu-item-price">630 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Нежная телятина с традиционной ореховой заправкой, 200г</p>
+                    <button class="add-to-order" data-name="Салат с телятиной и ореховой заправкой" data-price="630">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salads">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?salad" alt="Цезаридзе">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Цезаридзе с цыпленком</h3>
+                        <span class="menu-item-price">605 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Грузинская версия классического цезаря, 260г</p>
+                    <button class="add-to-order" data-name="Цезаридзе с цыпленком" data-price="605">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- ОСНОВНЫЕ БЛЮДА -->
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?barbecue" alt="Шашлык из свинины">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Шашлык из свинины</h3>
+                        <span class="menu-item-price">625 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Нежный шашлык из свинины на углях, 130/90/100/40/40г</p>
+                    <button class="add-to-order" data-name="Шашлык из свинины" data-price="625">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?chicken" alt="Чкмерули">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Чкмерули</h3>
+                        <span class="menu-item-price">695 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Запеченный цыпленок под сливочно-чесночным соусом с аджикой, 350г</p>
+                    <button class="add-to-order" data-name="Чкмерули" data-price="695">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- СУПЫ -->
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-image">
+                    <img src="images/харчо.webp" alt="Харчо">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Харчо</h3>
+                        <span class="menu-item-price">470 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Острый грузинский суп с говядиной и рисом, 350г</p>
+                    <button class="add-to-order" data-name="Харчо" data-price="470">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- ДЕСЕРТЫ -->
+            <div class="menu-item" data-category="desserts">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?dessert" alt="Штруделидзе">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Штруделидзе</h3>
+                        <span class="menu-item-price">520 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Грузинский штрудель со спелыми яблоками, 250г</p>
+                    <button class="add-to-order" data-name="Штруделидзе" data-price="520">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="desserts">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?dessert" alt="Фисташковая панакота">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Фисташковая панакота на мацони</h3>
+                        <span class="menu-item-price">420 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Нежный десерт с грузинским мацони, 180г</p>
+                    <button class="add-to-order" data-name="Фисташковая панакота на мацони" data-price="420">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <!-- НАПИТКИ -->
+            <div class="menu-item" data-category="drinks">
+                <div class="menu-item-image">
+                    <img src="images/капучино.webp" alt="Кофе">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Капучино</h3>
+                        <span class="menu-item-price">340 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Классический капучино, 350 мл</p>
+                    <button class="add-to-order" data-name="Капучино" data-price="340">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="drinks">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?fresh-juice" alt="Фреш">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Апельсиновый фреш</h3>
+                        <span class="menu-item-price">445 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Свежевыжатый апельсиновый сок, 250 мл</p>
+                    <button class="add-to-order" data-name="Апельсиновый фреш" data-price="445">Добавить к заказу</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="drinks">
+                <div class="menu-item-image">
+                    <img src="https://source.unsplash.com/random/600x400/?lemonade" alt="Лимонад">
+                </div>
+                <div class="menu-item-info">
+                    <div class="menu-item-title">
+                        <h3>Лимонад из Грузии</h3>
+                        <span class="menu-item-price">435 руб.</span>
+                    </div>
+                    <p class="menu-item-description">Освежающий грузинский лимонад, 500 мл</p>
+                    <button class="add-to-order" data-name="Лимонад из Грузии" data-price="435">Добавить к заказу</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="order-summary">
+            <h3>Ваш заказ</h3>
+            <div id="order-items">
+                <!-- Здесь будут отображаться выбранные блюда -->
+            </div>
+            <div class="order-total">
+                Итого: <span id="order-total">0</span> руб.
+            </div>
+            <button id="save-order" class="btn" style="width: 100%; margin-top: 1rem;">
+                💾 Сохранить заказ и перейти к бронированию
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="page">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            
+            <div class="photo-upload" id="upload-area">
+                <div class="upload-icon">+</div>
+                <p>Нажмите для загрузки фотографий вашего мероприятия</p>
+                <input type="file" id="photo-input" multiple accept="image/*" style="display: none;">
+            </div>
+            
+            <div class="gallery-grid" id="user-gallery">
+                <!-- Здесь будут отображаться загруженные пользователем фото -->
+            </div>
+            
+            <h3 style="margin-top: 3rem;">Наши работы</h3>
+            <div class="gallery-grid">
+            
+                </div>
+                <div class="gallery-item">
+                    <img src="images/блюда.webp" alt="Блюда">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/интерьер.jpg" alt="Интерьер">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Грузинский ресторанчик "Хочу Пури"</h3>
+                    <p>Мы создаем незабываемые мероприятия с 2024 года. Наша команда профессионалов позаботится о каждой детали вашего праздника.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>Адрес: г. Ульяновск. переулок Кузнецова, 3А</p>
+                    <p>Телефон: +7 (906) 390 26 29</p>
+                    <p>Email: geny.gagaga@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Часы работы</h3>
+                    <p>вс-чт с 11:00 до 23:00</p>
+                    <p>пт-сб с 11:00 до 00:00</p>
+    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ресторан "Хочу Пури". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно подтверждения бронирования -->
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Подтверждение бронирования</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div class="confirmation-details">
+                <h3>Детали мероприятия:</h3>
+                <div class="detail-row">
+                    <span class="detail-label">Тип мероприятия:</span>
+                    <span id="confirm-event-type"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Тематика:</span>
+                    <span id="confirm-event-theme"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Дата и время:</span>
+                    <span id="confirm-event-datetime"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Количество гостей:</span>
+                    <span id="confirm-guests-count"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Бюджет:</span>
+                    <span id="confirm-budget"></span> руб.
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Особые пожелания:</span>
+                    <span id="confirm-special-requests"></span>
+                </div>
+                
+                <div class="detail-row">
+                    <span class="detail-label">Контактное лицо:</span>
+                    <span id="confirm-contact-person"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Телефон:</span>
+                    <span id="confirm-phone"></span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Email:</span>
+                    <span id="confirm-email"></span>
+                </div>
+                
+                <h3>Выбранное меню:</h3>
+                <div id="confirm-order-items" class="order-summary-confirm">
+                    <div class="empty-order">Меню не выбрано</div>
+                </div>
+                <div class="order-total-confirm">
+                    Общая сумма заказа: <span id="confirm-order-total">0</span> руб.
+                </div>
+            </div>
+            
+            <div class="confirmation-actions">
+                <p class="confirmation-question">Вся информация верна?</p>
+                <div class="action-buttons">
+                    <button class="btn btn-cancel" id="edit-booking">Изменить данные</button>
+                    <button class="btn btn-confirm" id="confirm-booking">Да, всё верно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно успешной отправки -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>✅ Заявка отправлена!</h2>
+                <button class="close-success-modal">&times;</button>
+            </div>
+            <p>Ваша заявка на бронирование успешно отправлена менеджерам! Мы свяжемся с вами в течение 24 часов для подтверждения деталей.</p>
+            <div class="success-actions">
+                <button class="btn" id="success-ok">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
